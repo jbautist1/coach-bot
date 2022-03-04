@@ -3,7 +3,7 @@ import os
 import discord
 import random
 
-TOKEN = 'OTQ5NDE1NjQ3Mzc1NDA1MTE3.YiKCOQ.gt2pRHRJdlwlw5HgKqK1EY-F8ts'
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 pics = [f for f in os.listdir('./pics/')]
 
